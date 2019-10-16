@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Gimnasio Arequipa">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Elvio">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>HADAR Gym</title>
+</head>
+<body>  
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" width="100%">
+        <div class="container navstill">
+            <!-- Logo -->
+            
+            <img src="img/edit.png" class="rounded" alt="image1" width="5%" height="5%">
+            
+            <h1 style="float: left"><strong>HADAR Gym</strong></h1>
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ubicanos">Ubicanos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactenos">Horario</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+        
+    <!-- <br>
+    <div class="container">
+        <h1><strong>HADAR Gym</strong></h1>
+    </div> -->
+    
+    <!-- <br> -->
+    
+    <div class="container" id="home">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12 col-md-10">
+                <div id="demo" class="carousel slide container" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+            
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/image1.jpg" class="rounded" alt="image1" width="100%" height="100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/image2.jpeg" class="rounded" alt="image2" width="100%" height="100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/image3.jpg" class="rounded" alt="image3" width="100%" height="50%">
+                        </div>
+                    </div>
+                    
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>		
+            </div>
+        </div>
+    </div>
+
+    <!-- <br> -->
+
+    <div class="container-fluid frase">
+        <div class="row justify-content-around">
+            <div class="col-10 d-none d-lg-block big">   
+                <blockquote>
+                    La fuerza no viene de una capacidad física, 
+                    viene de una voluntad indomable
+                </blockquote>
+                <h4>Mahatma Gandhi</h4>
+            </div>
+            <div class="col-10 d-none d-md-block d-lg-none medium">   
+                <blockquote>
+                    La fuerza no viene de una capacidad física, 
+                    viene de una voluntad indomable
+                </blockquote>
+                <h4>Mahatma Gandhi</h4>
+            </div>
+            <div class="col-12 d-block d-md-none small">   
+                <blockquote>
+                    La fuerza no viene de una capacidad física, 
+                    viene de una voluntad indomable
+                </blockquote>
+                <h4>Mahatma Gandhi</h4>
+            </div>
+        </div>     
+    </div>
+    
+    <div class="container-fluid inform">
+        <h2>INFORMES</h2>
+    </div>
+    <br>
+
+    <div class="container-fluid" id="ubicanos">
+        <div class="row align-items-center justify-content-around">
+            <div class="col-1 d-none d-md-block"></div>
+            <div class="col-5 col-sm-4 col-md-3 adreess">
+                <h3>UBICANOS</h3>
+                <address>
+                    Dirección: <br> Urb. Villa Cristo Salvador B-2 <br> Characato
+                </address>
+                <p>
+                    Paradero 77
+                    Segundo Piso
+                </p>
+                <strong>Arequipa-Perú</strong>
+            </div>
+
+            <div class="col-7 col-sm-8 col-md-6">
+                <img class="img-thumbnail" src="img/ubicacion.png" alt="" width="100%">
+            </div>
+
+            <div class="col-1 d-none d-md-block"></div>
+        </div>
+    </div>
+
+    <br>
+
+    <footer class="footer bg-dark bottom" id="contactenos">
+        <div class="container foot">
+            <div class="row justify-content-around align-items-center" style="text-align:center">
+                <div class="col-12 col-md-3">
+                    <h4>HORARIO DE ATENCIÓN</h4>
+                    <p>5:00 - 21:00</p>
+                </div>
+                <div class="col-4" style="text-align:center">
+                    <h4>CONTACTENOS</h4>
+                    <p>
+                        Email: Hadargymerc@hotmail.com <br>
+                        Telefono: 054 - 970 677 115
+                    </p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+</body>
+</html>

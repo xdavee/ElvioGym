@@ -1,0 +1,73 @@
+body {
+    background-color: #E0FFFF;
+}
+
+.navstill {
+    padding: 0%;
+    font-size: 120%;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.imgf {
+    /* display: block; */
+    margin: auto;
+    /* width: 80%;
+    height: 90%; */
+}
+
+/* INFORMES */
+h2 {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/* FRASE */
+.frase {
+    background-color: LightSteelBlue;
+    text-align: center;
+}
+blockquote {
+    text-align: center;
+    font-size: 200%;
+}
+.frase h4 {
+    text-align: right;
+    font-size: 100%;
+}
+.big {
+    padding: 50px;
+}
+.medium {
+    padding: 40px;
+    font-size: 85%;
+}
+.small {
+    padding: 25px;
+    font-size: 70%;
+}
+
+.inform {
+    background: url(img/portada.jpeg) no-repeat top;
+    background-size: cover;
+}
+.inform h2 {
+    padding: 100px;
+}
+
+.foot {
+    padding: 50px 0;
+    color: #ffffff;
+    font-size: 10px;
+}
+.foot h4 {
+    font-size: 14px;
+}
+
+.adreess {
+    text-align: right;
+}
